@@ -5,12 +5,13 @@ public class Consumables implements IConsumables {
 	private String type;
 	private String description;
 	
-	private int effects[];
+	/*um vetor que contem os valores dos efeitos do consumivel, a posicao [0] representa efeito sombre o CR, [1] sobre o knowledge e [2] sobre o migue*/
+	private double effects[];
 	
 	private int quantity;
 	private int duration;
 	
-	public Consumables (String nome, String descricao, int vida, int ataque, int defesa, int quantidade, int duracao) {				
+	public Consumables (String nome, String descricao, double vida, double ataque, double defesa, int quantidade, int duracao) {				
 		setName(nome);		
 		setDescription(descricao);
 		setEffects(vida, ataque, defesa);
@@ -29,10 +30,10 @@ public class Consumables implements IConsumables {
 		this.description = descricao;
 	}
 	
-	public void setEffects (int vida, int ataque, int defesa) {
-		effects[0] = vida;
-		effects[1] = ataque;
-		effects[2] = defesa;
+	public void setEffects (double cr, double knowledge, double migue) {
+		effects[0] = cr;
+		effects[1] = knowledge;
+		effects[2] = migue;
 	}
 	
 	public void setQuantity(int quantidade) {
@@ -58,17 +59,17 @@ public class Consumables implements IConsumables {
 	}
 	
 	/*metodo para pegar o valor que o item recuperda a vida*/
-	public int getHP() {
+	public double getCR() {
 		return this.effects[0];
 	}
 	
 	/*metodo para pegar o valor que o item aumenta o ataque*/
-	public int getAttack() {
+	public double getKnowledge() {
 		return this.effects[1];
 	}
 	
 	/*metodo para pegar o valor que o item aumenta a defesa*/
-	public int getDefense() {
+	public double getMigue() {
 		return this.effects[2];
 	}
 	
@@ -92,12 +93,12 @@ public class Consumables implements IConsumables {
 	 * "Nome"
 	 * Tipo: "Tipo"
 	 * "Descricao"
-	 * HP: +/- recuperacao da vida
-	 * Ataque: +/- aumento do poder de ataque
-	 * Defesa: +/- aumento do poder de defesa
+	 * CR: +/- recuperacao da vida
+	 * Knowledge: +/- aumento do poder de ataque
+	 * Migue: +/- aumento do poder de defesa
 	 * 
 	 * Quantidade de usos
-	 * Deracao: "duration" rounds*/
+	 * Duracao: "duration" rounds*/
 	@Override
 	public void Data() {
 		// TODO Auto-generated method stub
@@ -106,9 +107,9 @@ public class Consumables implements IConsumables {
 		System.out.println(description);
 		
 		
-		System.out.println("HP: " + effects[0]);
-		System.out.println("Ataque: " + effects[1]);
-		System.out.println("Defesa: " + effects[2]);
+		System.out.println("CR: " + effects[0]);
+		System.out.println("Knowledge: " + effects[1]);
+		System.out.println("Migue: " + effects[2]);
 		
 		System.out.println("Usos: " + quantity );			
 		System.out.println("Duração: " + duration + (" rounds") );	

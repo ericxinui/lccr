@@ -2,13 +2,13 @@ package itens;
 
 public interface IConsumables {
 	/*metodo para pegar o valor que o item recuperda a vida*/
-	public int getHP();
+	public double getCR();
 	
 	/*metodo para pegar o valor que o item aumenta o ataque*/
-	public int getAttack();
+	public double getKnowledge();
 	
 	/*metodo para pegar o valor que o item aumenta a defesa*/
-	public int getDefense();
+	public double getMigue();
 	
 	/*metodo para pegar a quantidade de usos restantes do item*/
 	public int getQuantity();
@@ -23,9 +23,9 @@ public interface IConsumables {
 	 * "Nome"
 	 * Tipo: "Tipo"
 	 * "Descricao"
-	 * HP: +/- recuperacao da vida
-	 * Ataque: +/- aumento do poder de ataque
-	 * Defesa: +/- aumento do poder de defesa
+	 * CR +/- recuperacao da vida
+	 * Knowledge: +/- aumento do poder de ataque
+	 * Migue: +/- aumento do poder de defesa
 	 * 
 	 * Quantidade de usos*/
 	public void Data();

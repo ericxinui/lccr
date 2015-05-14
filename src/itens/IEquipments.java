@@ -3,16 +3,16 @@ package itens;
 /*Interface para a classe Itens*/
 public interface IEquipments {			
 	/*Retorna o nome do equipamento*/
-	public String GetName();
+	public String getName();
 	
 	/*Metodo get para retornar o poder do equipamento*/
-	public int GetPower();
+	public double getPower();
 	
 	/*Metodo get para retornar o tipo (arma ou armadura) do equipamento*/
-	public String GetType();
+	public String getType();
 	
 	/*Metodo get para retornar o estado (equipado ou não equipado) do equipamento*/
-	public boolean GetStatus();
+	public boolean getStatus();
 	
 	/*metodo que imprimira todos os dados do item na seguinte forma:
 	 * "Nome"

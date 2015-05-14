@@ -5,12 +5,12 @@ public class Equipments implements IEquipments {
 	private String type;
 	private String description;
 	
-	private int power;
+	private double power;
 	
 	private boolean state;
 	
     /*construtor dos equipamenos usando os metodos Set, o atributo state sempre eh inicialiado com false porque ele nunca comeca ja equipado em um personagem*/
-	public Equipments(String nome, String tipo, String descricao, int poder) {		
+	public Equipments(String nome, String tipo, String descricao, double poder) {		
 		setName(nome);
 		setType(tipo);
 		setDescription(descricao);
@@ -37,31 +37,31 @@ public class Equipments implements IEquipments {
 		this.description = descricao;
 	}
 	
-	private void setPower(int poder) {
+	private void setPower (double poder) {
 		this.power = poder;
 	}
 	
 	@Override
-	public String GetName() {
+	public String getName() {
 		// TODO Auto-generated method stub
 		return this.name;
 	}
 
 	@Override
-	public int GetPower() {
+	public double getPower() {
 		// TODO Auto-generated method stub
 		return this.power;
 	}
 
 	@Override
-	public String GetType() {
+	public String getType() {
 		// TODO Auto-generated method stub
 		return this.type;
 	}
 
 	/*Este metodo retorna true se o equipamento esta equipado ou false caso contrario*/
 	@Override
-	public boolean GetStatus() {
+	public boolean getStatus() {
 		// TODO Auto-generated method stub
 		return this.state;
 	}
@@ -71,9 +71,9 @@ public class Equipments implements IEquipments {
 	 * Tipo: "Typo"
 	 * "Description"
 	 * (Se for uma arma)
-	 * Ataque: +/- "Power"
+	 * Knowledge: +/- "Power"
 	 * (Se for uma armadura)
-	 * Defesa: +/- "Power"
+	 * Migue: +/- "Power"
 	 * 
 	 * Estado: "state"(equipado ou desequipado)*/
 	@Override

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:css="http://www.eclipse.org/papyrus/infra/gmfdiag/css" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
   <notation:Diagram xmi:id="_BiCmIPgHEeSF_-_kA8zspA" type="PapyrusUMLClassDiagram" name="ItensUML" measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="_1J1BYPgIEeSF_-_kA8zspA" type="2008">
       <children xmi:type="notation:DecorationNode" xmi:id="_1J7vEPgIEeSF_-_kA8zspA" type="5029"/>
@@ -268,7 +268,7 @@
         <layoutConstraint xmi:type="notation:Location" xmi:id="_kX6pwPgQEeSF_-_kA8zspA" x="7" y="21"/>
       </children>
       <element xmi:type="uml:Interface" href="Itens.uml#_4xfEkPgIEeSF_-_kA8zspA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jdvggfgQEeSF_-_kA8zspA" x="115" y="284" width="20" height="20"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jdvggfgQEeSF_-_kA8zspA" x="37" y="186" width="20" height="20"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_lyHW4PgQEeSF_-_kA8zspA" type="2002">
       <children xmi:type="notation:DecorationNode" xmi:id="_lyH98PgQEeSF_-_kA8zspA" type="5004"/>
@@ -280,14 +280,14 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_62IjQvgQEeSF_-_kA8zspA"/>
           </children>
           <children xmi:type="notation:Shape" xmi:id="__4NWAPgQEeSF_-_kA8zspA" type="3069">
-            <children xmi:type="notation:DecorationNode" xmi:id="__4NWAvgQEeSF_-_kA8zspA" type="5006">
+            <children xmi:type="notation:DecorationNode" xmi:id="__4NWAvgQEeSF_-_kA8zspA" visible="false" type="5006">
               <layoutConstraint xmi:type="notation:Location" xmi:id="__4NWA_gQEeSF_-_kA8zspA" x="33" y="14"/>
             </children>
             <children xmi:type="notation:DecorationNode" xmi:id="__4SOgPgQEeSF_-_kA8zspA" type="5007">
               <layoutConstraint xmi:type="notation:Location" xmi:id="__4SOgfgQEeSF_-_kA8zspA" x="25" y="-10"/>
             </children>
             <element xmi:type="uml:Port" href="Itens.uml#__3s_sPgQEeSF_-_kA8zspA"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__4NWAfgQEeSF_-_kA8zspA" x="-10" y="60" width="20" height="20"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__4NWAfgQEeSF_-_kA8zspA" x="-10" y="51" width="20" height="20"/>
           </children>
           <element xmi:type="uml:Property" href="Itens.uml#_6155wPgQEeSF_-_kA8zspA"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_62B1kfgQEeSF_-_kA8zspA" x="73" y="50" width="194"/>
@@ -299,8 +299,8 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IwMDUvgREeSF_-_kA8zspA"/>
           </children>
           <children xmi:type="notation:Shape" xmi:id="_NNJ94PgREeSF_-_kA8zspA" type="3069">
-            <children xmi:type="notation:DecorationNode" xmi:id="_NNKk8PgREeSF_-_kA8zspA" type="5006">
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_NNKk8fgREeSF_-_kA8zspA" x="-5" y="33"/>
+            <children xmi:type="notation:DecorationNode" xmi:id="_NNKk8PgREeSF_-_kA8zspA" visible="false" type="5006">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_NNKk8fgREeSF_-_kA8zspA" x="-61" y="36"/>
             </children>
             <children xmi:type="notation:DecorationNode" xmi:id="_NNKk8vgREeSF_-_kA8zspA" type="5007">
               <layoutConstraint xmi:type="notation:Location" xmi:id="_NNLMAPgREeSF_-_kA8zspA" x="25" y="-10"/>
@@ -309,7 +309,7 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NNJ94fgREeSF_-_kA8zspA" x="208" y="49" width="20" height="20"/>
           </children>
           <element xmi:type="uml:Property" href="Itens.uml#_IwFVoPgREeSF_-_kA8zspA"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IwGjwfgREeSF_-_kA8zspA" x="334" y="61" width="218"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IwGjwfgREeSF_-_kA8zspA" x="338" y="49" width="218"/>
         </children>
         <styles xmi:type="notation:TitleStyle" xmi:id="_lyH98vgQEeSF_-_kA8zspA"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lyH98_gQEeSF_-_kA8zspA"/>
@@ -326,7 +326,7 @@
           <layoutConstraint xmi:type="notation:Location" xmi:id="_u9ycQvgQEeSF_-_kA8zspA" x="25" y="-10"/>
         </children>
         <element xmi:type="uml:Port" href="Itens.uml#_u8k7UPgQEeSF_-_kA8zspA"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u9x1MfgQEeSF_-_kA8zspA" x="-10" y="176" width="20" height="20"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u9x1MfgQEeSF_-_kA8zspA" x="-10" y="145" width="20" height="20"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_Mt-HgPgREeSF_-_kA8zspA" type="3069">
         <children xmi:type="notation:DecorationNode" xmi:id="_Mt-HgvgREeSF_-_kA8zspA" type="5006">
@@ -339,14 +339,14 @@
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Mt-HgfgREeSF_-_kA8zspA" x="633" y="147" width="20" height="20"/>
       </children>
       <element xmi:type="uml:Component" href="Itens.uml#_lm0F0PgQEeSF_-_kA8zspA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lyHW4fgQEeSF_-_kA8zspA" x="220" y="111" width="643" height="319"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lyHW4fgQEeSF_-_kA8zspA" x="135" y="40" width="643" height="233"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_S_AnwPgREeSF_-_kA8zspA" type="2003">
       <children xmi:type="notation:DecorationNode" xmi:id="_S_AnwvgREeSF_-_kA8zspA" type="5005">
         <layoutConstraint xmi:type="notation:Location" xmi:id="_S_Anw_gREeSF_-_kA8zspA" x="-3" y="-19"/>
       </children>
       <element xmi:type="uml:Interface" href="Itens.uml#_Rq6KUPgLEeSF_-_kA8zspA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Sa7qUfgREeSF_-_kA8zspA" x="939" y="254" width="20" height="20"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Sa7qUfgREeSF_-_kA8zspA" x="854" y="183" width="20" height="20"/>
     </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_BkJe8fgHEeSF_-_kA8zspA" name="diagram_compatibility_version" stringValue="1.0.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_BkJe8vgHEeSF_-_kA8zspA"/>
@@ -358,7 +358,7 @@
       <styles xmi:type="notation:FontStyle" xmi:id="_0LP_ofgQEeSF_-_kA8zspA"/>
       <element xmi:type="uml:InterfaceRealization" href="Itens.uml#_0K-54PgQEeSF_-_kA8zspA"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0LP_ovgQEeSF_-_kA8zspA" points="[-8, 8, 111, 1]$[-120, 16, -1, 9]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0Lbl0PgQEeSF_-_kA8zspA" id="(0.0,0.2)"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0Lbl0PgQEeSF_-_kA8zspA" id="(0.0,0.6)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6TGHoPgQEeSF_-_kA8zspA" id="(1.0,0.5)"/>
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_FNs0APgREeSF_-_kA8zspA" type="4019" source="__4NWAPgQEeSF_-_kA8zspA" target="_u9x1MPgQEeSF_-_kA8zspA">
@@ -387,6 +387,9 @@
       <styles xmi:type="notation:FontStyle" xmi:id="_Uj6wEfgREeSF_-_kA8zspA"/>
       <element xmi:type="uml:InterfaceRealization" href="Itens.uml#_Uj0CYPgREeSF_-_kA8zspA"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Uj6wEvgREeSF_-_kA8zspA" points="[10, -3, -76, 1]$[85, 5, -1, 9]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xdz1QPhNEeSsQdcgRTzPlg" id="(1.0,0.1)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xd0cUPhNEeSsQdcgRTzPlg" id="(0.0,0.45)"/>
     </edges>
   </notation:Diagram>
+  <css:ModelStyleSheets xmi:id="_ipxZMPhNEeSsQdcgRTzPlg"/>
 </xmi:XMI>

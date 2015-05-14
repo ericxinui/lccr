@@ -5,9 +5,9 @@ import lccl.player.IPlayer;
 public class Player implements IPlayer, IHandler, IWanderer, IFighter
 {
 	//attributes
-	float CR = 0.5;
-	float knowledge;
-	float migue;
+	double CR = 0.5;
+	double knowledge;
+	double migue;
 	String type;
 
 	public Player(float knowledge, float migue, String type)
